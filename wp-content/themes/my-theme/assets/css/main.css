@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15.0rem;
+    background-color: #0d7619;
+}
+
+header img {
+    width: 25.0rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 3.0rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 1.0rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+section {
+    height: 85.0rem;
+}
+
+.section-1 {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 5.0rem;
+    font-size: 1.5rem;
+}
+
+.section-title {
+    padding-top: 30.0rem;
+    font-size: 3.0rem;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.section-subtitle {
+    padding-top: 1.0rem;
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.section-threetitle {
+    padding-top: 0.5rem;
+    padding-bottom: 2.0rem;
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #9acf64;
+}
+
+.section-bttn {
+    background-color: #395e1b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5.0rem;
+    padding: 1.0rem 2.0rem 1.0rem 2.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.section-bttn:hover {
+    color: #395e1b;
+    background-color: #ffffff;
+    border: solid 0.1rem #395e1b;
+}
+
+.title {
+    padding-top: 20.0rem;
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.8;
+    text-align: center;
+    letter-spacing: 1.0rem;
+}
+
+hr {
+    margin: auto;
+    margin-top: 3.0rem;    
+    width: 15.0rem;
+    opacity: 0.5;
+}
+
+.section-2 .premier {    
+    margin-top: 3.0rem;
+    text-align: center;
+    font-size: 3.0rem;
+    opacity: 0.7;
+    line-height: 5.0rem;
+}
+
+.section-3 {
+    height: 40.0rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/bandeau.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    height: 15.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
