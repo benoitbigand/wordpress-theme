@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 <header class="header">
   <a href="#"><img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Logo"></a>
-  <nav>
+  <nav> 
     <?php 
       wp_nav_menu( array('theme_location' => 'nav_main') );
     ?>
